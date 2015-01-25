@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>MSTD 2015 - Organisation des projets Web</title>
+
+		<meta name="description" content="Slide de la présentation des Microsoft TechDays 2015">
+		<meta name="author" content="Jeremie Patonnier">
+		<meta name="author" content="Corrine Schillinger">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<style>
+			.reveal p,
+			.reveal h1,
+			.reveal h2,
+			.reveal h3,
+			.reveal ul {
+				text-shadow: 0 0 50px #222,
+					0 0 40px #222,
+					0 0 30px #222,
+					0 0 20px #222,
+					0 0 15px #222,
+					0 0 10px #222,
+					0 0 9px #222,
+					0 0 8px #222,
+					0 0 7px #222,
+					0 0 6px #222,
+					0 0 5px #222,
+					0 0 4px #222,
+					0 0 3px #222,
+					0 0 2px #222,
+					0 0 1px #222;
+			}
+		</style>
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>Microsoft<br> TechDays 2015</h1>
+					<h3>Mauvaises pratiques d'intégration : Comment éradiquer le chiendent</h3>
+					<p>
+						<small>
+							Par Corinne Schillinger, INSEO<br>
+							et <a href="http://twitter.com/JeremiePat">Jérémie Patonnier</a>, <a href="http://www.clever-age.com">Clever Age</a>
+						</small>
+					</p>
+				</section>
+
+				<section data-background-image="img/paquerette.jpg">
+					<h2>La documentation</h2>
+					<p>Un bon terreau pour un beau jardin</p>
+					<ul>
+						<li class="fragment">Expression de besoin</li>
+						<li class="fragment">Cahier des charges</li>
+						<li class="fragment">Specifications fonctionnelles</li>
+						<li class="fragment">Specifications techniques</li>
+						<li class="fragment">Document d'architecture</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/st3f4n/14304146552/sizes/l">© Stéfan</a></small></p>
+				</section>
+
+				<section data-background-image="img/jungle.jpg">
+					<h2>Les fichiers du projets</h2>
+					<p>Welcome to the jungle</p>
+					<ul>
+						<li class="fragment">Dossiers et sous-dossiers</li>
+						<li class="fragment">Grouper logiquement</li>
+						<li class="fragment">Nommer de manière cohérente</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/befuddledsenses/1334530150/sizes/l">© Luke Jones</a></small></p>
+				</section>
+
+				<section data-background-image="img/machette.jpg">
+					<h2>Règle de nommage</h2>
+					<p>Défrichons doucement</p>
+					<ul>
+						<li class="fragment">Anglais vs. Français</li>
+						<li class="fragment">Minuscule vs. Majuscule</li>
+						<li class="fragment">«-», «_», camelCase</li>
+						<li class="fragment">Les accents et espaces</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/lizzyf/5668551051/sizes/l">© Lizzy</a></small></p>
+				</section>
+
+				<section data-background-image="img/poison.jpg">
+					<h2>CSS &amp; Pré-processeur</h2>
+					<p>Évitons le poison</p>
+					<ul>
+						<li class="fragment">CSS minifiées vs. Sources</li>
+						<li class="fragment">!important</li>
+						<li class="fragment">Mixins claires et concies</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/csmorgan/14599260768/sizes/l">© FluffyLtd</a></small></p>
+				</section>
+
+				<section data-background-image="img/bucheron.jpg">
+					<h2>JavaScript</h2>
+					<p>Éclaircir et défricher</p>
+					<ul>
+						<li class="fragment">Scripts tiers invasif</li>
+						<li class="fragment">Bibliothèques mutiversion</li>
+						<li class="fragment">Fichier monolithique</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/otterlove/8154505388/sizes/l">© ap.</a></small></p>
+				</section>
+
+				<section data-background-image="img/pots.jpg">
+					<h2>HTML</h2>
+					<p>Selectionner de belles plantes</p>
+					<ul>
+						<li class="fragment">HTML5</li>
+						<li class="fragment">Encodage &amp; Entités HTML</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/earthworm/130338986/sizes/o/">© Earthworm </a></small></p>
+				</section>
+
+				<section data-background-image="img/garden.jpg">
+					<h2>Et voila ?</h2>
+					<ul>
+						<li class="fragment">Travailler progressivement</li>
+						<li class="fragment">Documenter régulièrement</li>
+						<li class="fragment">Pre-commit et intégration continue</li>
+					</ul>
+					<p><small><a href="https://www.flickr.com/photos/kjfnjy/14044342766/sizes/l">© Ken and Nyetta</a></small></p>
+				</section>
+
+				<section>
+					<h1>Merci :)</h1>
+					<h3>Questions ?</h3>
+					<p>
+						<small>
+							Corinne Schillinger, INSEO<br>
+							et <a href="http://twitter.com/JeremiePat">Jérémie Patonnier</a>, <a href="http://www.clever-age.com">Clever Age</a>
+						</small>
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
