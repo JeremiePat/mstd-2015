@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>MSTD 2015 - Organisation des projets Web</title>
+		<title>MSTD 2015 - Bonnes pratiques de développement Web</title>
 
-		<meta name="description" content="Slide de la présentation des Microsoft TechDays 2015">
+		<meta name="description" content="Slides de la présentation « Mauvaises pratiques d'intégration : Comment éradiquer le chiendent ou ça n'est pas parce qu'on fait du web qu'on doit faire n'importe quoi » aux Microsoft TechDays 2015">
 		<meta name="author" content="Jeremie Patonnier">
 		<meta name="author" content="Corinne Schillinger">
 
@@ -19,11 +19,20 @@
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<style>
+			.reveal ul {
+				list-style: none;
+			}
+			.reveal li:before {
+				content: '\2022';
+				padding: 15px;
+			}
+
 			.reveal p,
 			.reveal h1,
 			.reveal h2,
 			.reveal h3,
-			.reveal ul {
+			.reveal ul,
+			.reveal li:before {
 				text-shadow: 0 0 50px #222,
 					0 0 40px #222,
 					0 0 30px #222,
@@ -41,7 +50,7 @@
 					0 0 1px #222;
 			}
 
-			.slide-background {
+			.reveal .slide-background {
 				-webkit-filter: blur(2px);
 					 -moz-filter: blur(2px);
 					  -ms-filter: blur(2px);
@@ -76,15 +85,16 @@
 					<h3>Mauvaises pratiques d'intégration : Comment éradiquer le chiendent</h3>
 					<p>
 						<small>
-							Par Corinne Schillinger, INSEO<br>
+							Par <a href="http://twitter.com/schillinger">Corinne Schillinger</a>, <a href="http://www.inseo.fr">INSEO</a>
+							<br />
 							et <a href="http://twitter.com/JeremiePat">Jérémie Patonnier</a>, <a href="http://www.clever-age.com">Clever Age</a>
 						</small>
 					</p>
 				</section>
 
 				<section data-background-image="img/paquerette.jpg">
-					<h2>La documentation</h2>
-					<p>Un bon terreau pour un beau jardin</p>
+					<h2>Documentation</h2>
+					<p>Préparer un terrau fertile</p>
 					<ul>
 						<li class="fragment">Expression de besoin</li>
 						<li class="fragment">Cahier des charges</li>
@@ -96,8 +106,8 @@
 				</section>
 
 				<section data-background-image="img/jungle.jpg">
-					<h2>Les fichiers du projets</h2>
-					<p>Welcome to the jungle</p>
+					<h2>Arborescence</h2>
+					<p>Dégrossir la hiérarchie de fichiers</p>
 					<ul>
 						<li class="fragment">Dossiers et sous-dossiers</li>
 						<li class="fragment">Grouper logiquement</li>
@@ -107,8 +117,8 @@
 				</section>
 
 				<section data-background-image="img/machette.jpg">
-					<h2>Règle de nommage</h2>
-					<p>Défrichons doucement</p>
+					<h2>Règles de nommage</h2>
+					<p>Aplanir les usages</p>
 					<ul>
 						<li class="fragment">Anglais vs. Français</li>
 						<li class="fragment">Minuscule vs. Majuscule</li>
@@ -119,8 +129,8 @@
 				</section>
 
 				<section data-background-image="img/poison.jpg">
-					<h2>CSS &amp; Pré-processeur</h2>
-					<p>Évitons le poison</p>
+					<h2>CSS &amp; Préprocesseur</h2>
+					<p>Éviter les plantes vénéneuses</p>
 					<ul>
 						<li class="fragment">CSS minifiées vs. Sources</li>
 						<li class="fragment">!important</li>
@@ -131,7 +141,7 @@
 
 				<section data-background-image="img/bucheron.jpg">
 					<h2>JavaScript</h2>
-					<p>Éclaircir et défricher</p>
+					<p>Élaguer le superflu</p>
 					<ul>
 						<li class="fragment">Scripts tiers invasif</li>
 						<li class="fragment">Bibliothèques mutiversion</li>
@@ -151,7 +161,8 @@
 				</section>
 
 				<section data-background-image="img/garden.jpg">
-					<h2>Et voila ?</h2>
+					<h2>Et après ?</h2>
+					<p>Prendre plaisir à jardiner</p>
 					<ul>
 						<li class="fragment">Travailler progressivement</li>
 						<li class="fragment">Documenter régulièrement</li>
@@ -165,7 +176,8 @@
 					<h3>Questions ?</h3>
 					<p>
 						<small>
-							Corinne Schillinger, INSEO<br>
+							<a href="http://twitter.com/schillinger">Corinne Schillinger</a>, <a href="http://www.inseo.fr">INSEO</a>
+							<br />
 							et <a href="http://twitter.com/JeremiePat">Jérémie Patonnier</a>, <a href="http://www.clever-age.com">Clever Age</a>
 						</small>
 					</p>
