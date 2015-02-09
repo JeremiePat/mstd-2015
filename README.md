@@ -1,11 +1,12 @@
 #Introduction
-  — Corinne : inté senior / Paris-Web / livre BPIW
-  — Jérémie : ...
-  — Sujet extrèmement serieux : Les mauvaise pratiques de dévelopement web et comment y remédier
-  — Mouarf
-  — Dévelopement web == n'importe quel développement informatique, il faut organiser et structurer le developement sinon ça devient ingérable et le projet tourne mal.
 
-Site Nicolas (jardinier) : modif urgentes en mode l'arrache.
+— Corinne : inté senior / Paris-Web / livre BPIW
+— Jérémie : ...
+— Sujet extrèmement serieux : Les mauvaise pratiques de dévelopement web et comment y remédier
+— Mouarf
+— Dévelopement web == n'importe quel développement informatique, il faut organiser et structurer le developement sinon ça devient ingérable et le projet tourne mal.
+
+Site Nicolas (jardinier) : modif urgentes en mode l'arrache.   
 => Maintenance
 
 
@@ -33,8 +34,7 @@ Site Nicolas (jardinier) : modif urgentes en mode l'arrache.
 ✔✔✔✔✔✔
   - Bien rangé = repérage facilité = gain de temps permanent (découverte / mise en ligne / export)
   - Départ = peu de fichiers. Puis ajout de données & fichiers. Tri nécessaire (sources vs fichiers générés / fichiers contribués vs fichiers dev)
-  - /!\ Fichiers ouverts via l'explorateur pas l'IDE.
-
+  - Fichiers ouverts via l'explorateur pas l'IDE.
   - Pas de règle immuable : groupement par composants ou par types de fichiers
   - Une seule convention pour tout : répertoires, fichiers (CSS, JS et HTML)
 
@@ -83,10 +83,10 @@ Site Nicolas (jardinier) : modif urgentes en mode l'arrache.
   - Topo sur les outils de débogagge.
   - Comme pour Sass, on suit le process le build. 
 
-=> 26
 #HTML
-CSS nettoyé, JS vérifié. Reste donc le HTML.
-Alors, j'ai vu qu'on utilisais du Canvas, mais par contre je croyais qu'on devait supporter IE8.
+
+- CSS nettoyé, JS vérifié. Reste donc le HTML.
+- Canvas mais support IE 8 ?
 
 ✘✘✘✘✘✘
   - Dernière remarque : dès que j'ai des accents, j'ai des caractères cabalistiques genre des carré et des points d'interrogations qui s'affichent.
