@@ -1,10 +1,12 @@
 #Introduction
-— (C) Bonjour, je suis Corinne
-— (J) Et je suis Jérémie
-— (C) On va vous parler d'un sujet extrèmement serieux : Les mauvaise pratiques de dévelopement web et comment y remédier
-— (J) Oui, ok, mais enfin bon, sérieux... ça va quoi
-— (C) Ah ben si, le developement web c'est comme n'importe quel développement informatique, il faut organiser et structurer le developement sinon ça devient ingérable et le projet tourne mal.
-=> D'ailleurs à ce propos, on nous a demandé de faire des modifs sur le site de Nicolas le Jardinier. Ca te dise qu'on y jette un oeil ensemble ?
+  — Corinne : inté senior / Paris-Web / livre BPIW
+  — Jérémie : ...
+  — Sujet extrèmement serieux : Les mauvaise pratiques de dévelopement web et comment y remédier
+  — Mouarf
+  — Dévelopement web == n'importe quel développement informatique, il faut organiser et structurer le developement sinon ça devient ingérable et le projet tourne mal.
+
+Site Nicolas (jardinier) : modif urgentes en mode l'arrache.
+=> Maintenance
 
 
 #Documentation
@@ -22,8 +24,6 @@
 
 
 #Arborescence
-1) À quoi ça sert
-2) Bon, OK, c'est important mais comment on fait ?
 ✘✘✘✘✘✘
   - Aucune arbo ? Et alors...
   - Pour ce que ça change : tout est à la racine, on s'en sort (y a 10/15 fichiers, pas plus)
@@ -31,13 +31,14 @@
   - Et puis ils sont bien nommés, tu veux quoi de plus
 
 ✔✔✔✔✔✔
-  - Bien rangé = plus facile de s'y retrouver = gain de temps permanent (découverte / mise en ligne / export)
-  - Au départ : peu de fichiers, au fur et à mesure, ça va grandir, on va fractionner, ranger, faire le tri entre sources et fichiers générés
-  - /!\ Sur le web, fichiers textes donc ouverts via l'explorateurs, pas forcément via ton IDE.
+  - Bien rangé = repérage facilité = gain de temps permanent (découverte / mise en ligne / export)
+  - Départ = peu de fichiers. Puis ajout de données & fichiers. Tri nécessaire (sources vs fichiers générés / fichiers contribués vs fichiers dev)
+  - /!\ Fichiers ouverts via l'explorateur pas l'IDE.
+
   - Pas de règle immuable : groupement par composants ou par types de fichiers
   - Une seule convention pour tout : répertoires, fichiers (CSS, JS et HTML)
 
-=> Cerveau : machine à faire des corrélations. Si tu utilises une seule et même convention, on apprend la convention 1 fois et après, intuitivement comment ça marche. Ca accomagne l'effort de documentation : on la liste / s'en rapeelle une fois et après roulez jeunesse 
+=> Cerveau : machine à faire des corrélations. Apprentissage initial et roulez jeunesse 
 
 
 #Règles de nommage
@@ -47,9 +48,10 @@
 
 ✔✔✔✔✔✔
   - Projet français > international (indien / chinois / allemand)
-  - Et une fois que tu as utilisé les lettres les plus communes, tu fais quoi, tu passes en revue tout l'alphabet ? Un mixin Ctrl, j'ai aucune idée de ce qu'il fait.
+  - JS est sensible à la casse !
+  - Nom explicite : long si besoin avec des séparateurs : mixin Ctrl ?
   - Aucune prédictibilité possible = source d'erreurs
-  - Si framework, vérifier s'il y a une nommenclature prédéfinie
+  - Si framework : nommenclature prédéfinie ?
   - accent + espace dans une URL, c'est la m...
   
 
@@ -61,12 +63,11 @@
   - Et si besoin, je mettrais !important
 
 ✔✔✔✔✔✔
-  - Modif en direct = aucune tracabilité, impossibilité de revenir en arrière car régression à la clef
-  - Zapper les sources = destruction de toute la logique et du build projet (et avantage des automatisme déjà mis en place)
-  - Alourdit le fichier pour rien : on va certainement se trimballer des règles devenues inutiles
-  - Perd le bénéfice de la cascade et c'est une plaie à surcharger derrière
-=> Course à l'armement : on acumule de la dette techique qui va être monstrueuse à nettoyer le jour ou on en aura besoin. Il va être impossible de faire une frappe chirurgicale pour modifier quoi que ce soit.
-(Attention à la limite du nombre de sélecteurs que IE accepte 4096 sélecteurs)
+  - Modif en direct = aucune tracabilité : régression à la clef
+  - Zapper les sources = destruction de la logique du build projet et des automatismes
+  - Règles à la fin : alourdit le fichier pour rien 
+  - Perd le bénéfice de la cascade et on acumule de la dette techique : impossibilité de modifier précisément - nettoyage à venir douloureux.
+  - Limite de 4095 règles interprétées par IE.
 
 #Javascript
 ✘✘✘✘✘✘
@@ -82,6 +83,7 @@
   - Topo sur les outils de débogagge.
   - Comme pour Sass, on suit le process le build. 
 
+=> 26
 #HTML
 CSS nettoyé, JS vérifié. Reste donc le HTML.
 Alors, j'ai vu qu'on utilisais du Canvas, mais par contre je croyais qu'on devait supporter IE8.
