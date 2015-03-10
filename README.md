@@ -95,5 +95,5 @@ Pour le reste, anglais (intervenants étrangers potentiels)
 #Conclusion
 - Tout faire en une fois = illusion (demande un certain temps/budget)
 - Procéder étape par étape.   
-=> Faire évoluer le code au coup par coup lorsqu'on intervient dessus.
+=> Faire évoluer le code au coup par coup lorsqu'on intervient dessus.   
 => Documenter le code lors de sa mise à jour : documentation à posteriori plus compliquée.
