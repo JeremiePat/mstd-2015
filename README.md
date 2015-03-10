@@ -42,7 +42,8 @@ Profitons-en !
 - Analyse rapide du code et basta
 
 ##Dev 2
-- Langue : français pour projet et équipe francophone, ok. Pour le reste, anglais (intervenants étrangers potentiels)
+- Langue : français pour projet et équipe francophone, ok.   
+Pour le reste, anglais (intervenants étrangers potentiels)
 - /!\ aux majuscule : HTML & JS sont sensibles à la casse ! 
 - Préférer les noms explicites et descriptifs (que fait le mixin Ctrl ?)
 - Aucune prédictibilité possible = source d'erreurs
@@ -87,7 +88,7 @@ Profitons-en !
 ##Dev 2
 - Fonctionnement identique attendu sur tous les couples terminaux/navigateurs ?
 - Comportement clef ou pas ?   
-=> Oui : Opter pour un choix technologique pertinent : Canvas = pas solution appropriée.
+=> Oui : Opter pour un choix technologique pertinent : Canvas = pas solution appropriée.   
 => Non : Opter pour de la dégradation élégante : Mettre une image en lieu et place de l'animation.
 
 
