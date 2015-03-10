@@ -1,3 +1,5 @@
+_La présentation prend la forme d'un dialogue entre 2 développeurs._
+
 #Introduction
 - Récupération d'un projet conçu par une autre agence.
 - Demande de mise à jour et d'évolutions "pour hier" faites à l'arrache.
